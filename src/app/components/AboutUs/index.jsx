@@ -3,7 +3,7 @@
 export default function AboutUs() {
     return(
         <div>
-            <p>Shazam garai!</p>
+            <p>bout us</p>
         </div>
     )
 }

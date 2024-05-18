@@ -2,7 +2,6 @@
 
 import React, { useState } from "react"
 import Image from 'next/image'
-import versianiWorksLogo from "@/app/assets/images/versiani-works-logo.png"
 export default function Navbar() {
   const [isToggleOpen, setIsToggleOpen] = useState(false)
 
@@ -13,17 +12,10 @@ export default function Navbar() {
         <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
           <nav
             aria-label="main navigation"
-            className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700"
+            className="flex h-[5.5rem] justify-center font-medium text-slate-700"
             role="navigation"
           >
-            {/*      <!-- Brand logo --> */}
-            <Image
-                src={versianiWorksLogo}
-                width={100}
-                className="rounded-full"
-                height={800}
-                alt="Picture of the author"
-            />
+            
             {/*      <!-- Mobile trigger --> */}
             <button
               className={`relative order-10 block h-10 w-10 self-center lg:hidden
@@ -52,6 +44,7 @@ export default function Navbar() {
                 ></span>
               </div>
             </button>
+
             {/*      <!-- Navigation links --> */}
             <ul
               role="menubar"
@@ -67,7 +60,7 @@ export default function Navbar() {
                   role="menuitem"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-slate-800 focus:text-slate-800 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  href="#home"
                 >
                   <span>Inicio</span>
                 </a>
@@ -78,7 +71,7 @@ export default function Navbar() {
                   aria-current="page"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 text-slate-800 transition-colors duration-300 hover:text-slate-800 focus:text-slate-800 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  href="#aboutus"
                 >
                   <span>Quem somos</span>
                 </a>
@@ -88,9 +81,19 @@ export default function Navbar() {
                   role="menuitem"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-slate-800 focus:text-slate-800 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  href="#mission"
                 >
                   <span>Missão</span>
+                </a>
+              </li>
+              <li role="none" className="flex items-stretch">
+                <a
+                  role="menuitem"
+                  aria-haspopup="false"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-slate-800 focus:text-slate-800 focus:outline-none focus-visible:outline-none lg:px-8"
+                  href="#ourteam"
+                >
+                  <span>Nossa Equipe</span>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">

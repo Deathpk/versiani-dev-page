@@ -5,16 +5,18 @@ import OurMission from "./components/OurMission";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import UnderConstruction from "./components/UnderConstruction";
+import MainBanner from "./components/MainBanner";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <UnderConstruction/>
-      {/* <Navbar/>
+      {/* <UnderConstruction/> */}
+      <Navbar/>
+      <MainBanner/>
       <AboutUs/>
       <OurMission/>
       <Projects/>
-      <Contact/> */}
+      <Contact/>
     </main>
   );
 }
