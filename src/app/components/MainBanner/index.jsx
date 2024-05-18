@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function MainBanner() {
     return(
-        <section className="bg-[#F4F4F4] dark:bg-gray-900">
+        <section className="bg-[#F4F4F4] dark:bg-gray-900 w-screen">
             <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                 <div className="mr-auto place-self-center lg:col-span-7">
                     <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Web Artesãos prontos para construir sua próxima solução em Software</h1>
@@ -20,8 +20,8 @@ export default function MainBanner() {
                         />
                 </div>             
             </div>
-            <div className="flex items-center justify-center mb-6">
-                <a href="#" className=" px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+            <div className="flex items-center justify-center">
+                <a href="#" className=" px-5 py-3 mb-2 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                     Conheça nosso trabalho
                 </a>     
             </div>  
