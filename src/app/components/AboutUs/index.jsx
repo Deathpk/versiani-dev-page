@@ -8,7 +8,7 @@ export default function AboutUs() {
                 <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                     <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Afinal, como tudo começou?</h2>
                     <p className="mb-4">Tudo começou com dois grandes amigos apaixonados por tecnologia, onde ao trabalhar no mesmo projeto duas vezes, e após ver que a sincronia era boa decidiram começar a pegar mais trabalhos juntos e então desenvolve-los no tempo livre.</p>
-                    <p>A ideia era perfeita, Alexandre tem uma grande atenção aos detalhes, e consegue antecipar futuros problemas e como evitá-los, possui grande habilidade em traduzir para requisitos a ideia do Cliente. Já Michel possui ótima habilidade em modelagem de banco, entidades, modelagem de software e consegue propor ótimas soluções para resoluções de problemas.</p>
+                    <p>Nossa sincronia foi tão boa que nos juntamos para criar a Versiani Works, onde oferecemos soluções de software de alta qualidade. Possuímos experiência com Gerenciamento de projetos de software, desenvolvimento de APIs REST Robustas seguras e com alta disponibilidade, utilizando padrões de projeto e ferramentas modernas. Além disso, possuímos experiência nos nichos de ERP, PDV, Eventos e Gestão de Estoque.</p>
                     <br></br>
                     <p>Até então já trabalhamos em um total de 4 projetos juntos, e o seu pode ser o próximo &#128521; .</p>
                 </div>
