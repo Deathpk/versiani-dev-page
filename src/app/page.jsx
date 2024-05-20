@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import UnderConstruction from "./components/UnderConstruction";
 import MainBanner from "./components/MainBanner";
+import OurTeam from "./components/OurTeam";
 
 export default function Home() {
   return (
@@ -14,9 +15,8 @@ export default function Home() {
       <Navbar/>
       <MainBanner/>
       <AboutUs/>
-      <OurMission/>
       <Projects/>
-      <Contact/>
+      <OurTeam/>
     </main>
   );
 }

@@ -2,6 +2,8 @@
 
 import React, { useState } from "react"
 import Image from 'next/image'
+import Link from 'next/link'
+
 export default function Navbar() {
   const [isToggleOpen, setIsToggleOpen] = useState(false)
 
@@ -56,55 +58,44 @@ export default function Navbar() {
               }`}
             >
               <li role="none" className="flex items-stretch">
-                <a
-                  role="menuitem"
-                  aria-haspopup="false"
+                <Link
                   className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-slate-800 focus:text-slate-800 focus:outline-none focus-visible:outline-none lg:px-8"
                   href="#home"
                 >
-                  <span>Inicio</span>
-                </a>
+                  Inicio
+                </Link>
               </li>
               <li role="none" className="flex items-stretch">
-                <a
-                  role="menuitem"
-                  aria-current="page"
-                  aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 text-slate-800 transition-colors duration-300 hover:text-slate-800 focus:text-slate-800 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="#aboutus"
-                >
-                  <span>Quem somos</span>
-                </a>
+                <Link
+                    className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-slate-800 focus:text-slate-800 focus:outline-none focus-visible:outline-none lg:px-8"
+                    href="#aboutus"
+                  >
+                    Quem somos
+                </Link>
               </li>
               <li role="none" className="flex items-stretch">
-                <a
-                  role="menuitem"
-                  aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-slate-800 focus:text-slate-800 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="#mission"
-                >
-                  <span>Missão</span>
-                </a>
+                  <Link
+                    className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-slate-800 focus:text-slate-800 focus:outline-none focus-visible:outline-none lg:px-8"
+                    href="#mission"
+                  >
+                    Missão
+                  </Link>
               </li>
               <li role="none" className="flex items-stretch">
-                <a
-                  role="menuitem"
-                  aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-slate-800 focus:text-slate-800 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="#ourteam"
-                >
-                  <span>Nossa Equipe</span>
-                </a>
+                  <Link
+                    className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-slate-800 focus:text-slate-800 focus:outline-none focus-visible:outline-none lg:px-8"
+                    href="#ourteam"
+                  >
+                    Nossa Equipe
+                  </Link>
               </li>
               <li role="none" className="flex items-stretch">
-                <a
-                  role="menuitem"
-                  aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-slate-800 focus:text-slate-800 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
-                >
-                  <span>Contato</span>
-                </a>
+                  <Link
+                    className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-slate-800 focus:text-slate-800 focus:outline-none focus-visible:outline-none lg:px-8"
+                    href="#contact"
+                  >
+                    Contato
+                  </Link>
               </li>
             </ul>
           </nav>
