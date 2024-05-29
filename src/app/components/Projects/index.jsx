@@ -23,7 +23,7 @@ export default function Projects() {
     return(
         <div className="container mx-auto py-12">
             <h1 className="text-3xl font-bold text-center mb-8">Alguns Cases de sucesso</h1>
-            <div className="space-y-24">
+            <div className="space-y-24" id="cases">
                 {projects.map((project, index) => (
                 <div
                     key={index}

@@ -12,7 +12,7 @@ export default function AboutUs() {
                     <br></br>
                     <p>Até então já trabalhamos em um total de 4 projetos juntos, e o seu pode ser o próximo &#128521; .</p>
                 </div>
-                <div className="grid grid-cols-2 gap-4 mt-8">
+                <div className="hidden md:lg:grid grid-cols-2 gap-4 mt-8">
                     <Image
                         src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
                         className="w-full rounded-lg"

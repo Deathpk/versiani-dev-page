@@ -73,14 +73,14 @@ export default function Navbar() {
                     Quem somos
                 </Link>
               </li>
-              <li role="none" className="flex items-stretch">
+              {/* <li role="none" className="flex items-stretch">
                   <Link
                     className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-slate-800 focus:text-slate-800 focus:outline-none focus-visible:outline-none lg:px-8"
                     href="#mission"
                   >
                     Missão
                   </Link>
-              </li>
+              </li> */}
               <li role="none" className="flex items-stretch">
                   <Link
                     className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-slate-800 focus:text-slate-800 focus:outline-none focus-visible:outline-none lg:px-8"

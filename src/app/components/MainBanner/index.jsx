@@ -1,6 +1,8 @@
 'use client'
 import versianiWorksLogo from "@/app/assets/images/versiani-works-logo.png"
 import Image from "next/image";
+import Link from "next/link";
+import { WhatsAppLink } from "../Contact";
 
 export default function MainBanner() {
     return(
@@ -18,12 +20,15 @@ export default function MainBanner() {
                         height={500}
                         alt="Picture of the author"
                         />
-                </div>             
+                </div>        
             </div>
             <div className="flex items-center justify-center">
-                <a href="#" className=" px-5 py-3 mb-2 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                {/* <a href="#cases" className=" px-5 mx-4 py-3 mb-2 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                     Conheça nosso trabalho
-                </a>     
+                </a> */}
+                <Link target='_blank' href={WhatsAppLink} className=" px-5 py-3 mb-2 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                    Converse Conosco
+                </Link>      
             </div>  
         </section>
     )

@@ -8,6 +8,7 @@ import UnderConstruction from "./components/UnderConstruction";
 import MainBanner from "./components/MainBanner";
 import OurTeam from "./components/OurTeam";
 import Footer from "./components/Footer";
+import Features from "./components/Features";
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
       <AboutUs/>
       <Projects/>
       <OurTeam/>
+      <Features/>
+      <Contact/>
       <Footer/>
     </main>
   );

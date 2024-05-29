@@ -13,15 +13,15 @@ export default function OurTeam(){
         },
         {
             name: "Alexandre Guimarães",
-            role: "Analista e Desenvolvedor Fullstack",
-            about: "Formado em Análise e Desenvolvimento de Sistemas e ativo na área á pouco mais de 3 anos, apaixonado por resolver problemas com software e automação, apaixonado por PHP moderno e por ciclismo.",
+            role: "Gerente de projetos e Analista",
+            about: "Há pouco mais de 6 anos na área de T.I, hoje atua como Gerente de projetos na AR2 e na Versiani Works. Possui maestria no desenvolvimento fullstack e é ótimo em resolver problemas complexos com soluções simples e diretas ao ponto.",
             photo: alexandre
         }
     ];
 
     return (
         <section>
-            <div className="container flex justify-center px-6 m-auto">
+            <div className="container flex justify-center px-6 m-auto" id="ourteam">
                 <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
                 {members.map((member, index) => (
                     <div className="col-span-4 lg:col-span-6" key={member.name} >
@@ -32,7 +32,7 @@ export default function OurTeam(){
                                     alt={member.role}
                                     width={300}
                                     height={500}
-                                    className="object-cover min-h-full aspect-auto rounded-lg"
+                                    className="object-cover min-h-full aspect-auto rounded-full"
                                 />
                             </figure>
                             <div className="flex-1 p-6 sm:mx-6 sm:px-0">
